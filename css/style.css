@@ -26,6 +26,11 @@ footer{
   padding:12px 14px;
   float: right;
   margin-right: 100px;
+  transition: all 0.3s ease;
+}
+
+.contact:hover{
+  background: #333;
 }
 
 .inner{
@@ -113,6 +118,14 @@ h2{
   padding-bottom: 70px;
 }
 
+.s_op{
+  opacity: 0.7;
+}
+
+.s_op:hover{
+  opacity: 1.0;
+}
+
 .select_plan{
   font-size: 40;
 }
@@ -167,7 +180,6 @@ tr:nth-child(odd){
 
 a{
   text-decoration: none;
-
 }
 
 .fa-envelope{
@@ -189,3 +201,4 @@ a{
   padding: 20px 100px 25px 0px;
   text-align: right;
 }
+
