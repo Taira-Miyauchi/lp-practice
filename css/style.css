@@ -174,8 +174,9 @@ tr:nth-child(odd){
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
-  margin: 25px 0;
+  padding: 25px 0;
   width: 185px;
+  transition: all 0.5s ease;
 }
 
 a{
@@ -186,9 +187,10 @@ a{
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
-  margin: 25px 0;
+  padding: 25px 0;
   width: 185px;
   font-weight: 900;
+  transition: all 0.5s ease;
 }
 
 .f_copyright{
@@ -202,3 +204,9 @@ a{
   text-align: right;
 }
 
+.fab:hover{
+  background-color: #fff;
+}
+.fa-solid:hover{
+  background-color: #fff;
+}
